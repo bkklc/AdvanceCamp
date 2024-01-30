@@ -19,7 +19,7 @@ namespace Persistence
         {
             services.AddDbContext<BaseDbContext>(options =>
                                                      options.UseSqlServer(
-                                                         configuration.GetConnectionString("RentACarAdvanceCampConnectionString")));
+                                                         configuration.GetConnectionString("RentACarAdvanceDbConnectionString")));
             services.AddScoped<IBrandRepository, BrandRepository>();
 
             return services;

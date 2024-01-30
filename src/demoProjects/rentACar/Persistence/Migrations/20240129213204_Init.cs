@@ -24,7 +24,7 @@ namespace Persistence.Migrations
             migrationBuilder.InsertData(
                 table: "Brands",
                 columns: new[] { "Id", "Name" },
-                values: new object[] { 1, "Audi" });
+                values: new object[] { 1, "BMW" });
 
             migrationBuilder.InsertData(
                 table: "Brands",
